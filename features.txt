@@ -1,0 +1,22 @@
+Functions working:
+1. Login
+2. Logout
+3. Send to clients from server
+4. Send to clients from client
+5. Create a conference
+6. Join a conference
+7. Leave a conference
+8. Exit
+9. Broadcast
+10. Send message only to the clients within a conference
+11. List sessions
+12. List client in sessions
+13: Dispalying <User>:<Message>
+
+To be finished:
+1. Displaying conference name: <Conference Name>:<User>:<Message>
+2. Bulletproofing (Part 1)
+	i. Message in absence
+3. MAKE A FUNCTION THAT CAN SEND SINGLE MESSAGES FROM SERVER TO CLIENT!!!!
+4. Bulletproofing everything else (Join, Create, Leave ...)
+
