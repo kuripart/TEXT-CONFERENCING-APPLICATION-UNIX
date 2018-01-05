@@ -3,7 +3,6 @@ DATE OF SUBMISSION: 30/Nov/2017
 AUTHORS: ###Partha Sarathi Kuri, 1000 260 415 ###
 	 	 ###Nithin Ganesh Prasad, 999 676 426 ###
 
-===================================================================================================
 PROJECT OBJECTIVES:
 --------------------
 - This project allows a user to simulate text conferencing, by allowing them to connect a number of clients to a single server, and setting up conference sessions between the clients.
@@ -13,7 +12,7 @@ NOTE: this is real-time messaging.
 
 - The additional functionality added to this program was to be able to conference with multiple users over multiple sessions simultaneously (ie. user can be involved in 2 or more conference sessions at the same time). 
 
-===================================================================================================
+
 KEY FUNCTIONALITY:
 -------------------
 - Login: this project allows you to login to a server through multiple clients (successful logins/failed logins are acknowledge by the server).
@@ -29,7 +28,7 @@ For the bonus segment, we added the ability for the user to join multiple confer
 - Swap: allows the user to swap conference sessions.
 - Curr: prints the current conference session.
 
-===================================================================================================
+
 HOW TO RUN:
 ---------------
 
@@ -47,7 +46,7 @@ In addition, upon joining a session, the user can type any message into the corr
 
 If you want to leave a session at any time (for any client), type a corresponding message in that client terminal (eg. /leave c1). If you want to terminate a client connection, you can type to logout (eg. logout) or exit (eg. /exit); the difference is that exiting removes the client from the client_list while the logging out means that the client can log back in from any terminal again (and it will retain its conference sessions etc). However, it will lose all the messages exchanged in the session between the logout and the re-login (to be improved on at a future date).
 
-===================================================================================================
+
 PROGRAM STRUCTURE:
 -------------------
 The 2 key files used were server.c and client.c.
@@ -67,7 +66,7 @@ Additional Key Files that were used in supporting the above files/programs:
 
 NOTE: in all the client files (eg. a.txt, b.txt ...) and session files (eg. c1.txt, c2.txt ...), names of sessions/clients respectively were separated by ':', and the last field was also terminated by a ':'.
 
-===================================================================================================
+
 PROGRAM LIMITATIONS/NEXT-STEPS:
 --------------------------------
 
@@ -75,14 +74,14 @@ While substantial functionality was implemented for the program in the time give
 - Lack of GUI => many functions implemented as ('/' commands) could be streamlined via 'buttons' if a GUI were to be used.
 - Single terminal => having access to multiple terminals, would mean that it would be possible to create a unique terminal per conference session!
 - Encryption => allow additional security by implementing end-to-end encryption between users for additional security in data/text transfer.
-===================================================================================================
+
 REFERENCES:
 ---------------
 - Beej's Guide to Networking
 - Course Notes/Textbook
 - Stackoverflow
 
-===================================================================================================
+
 THANK YOU :)
 
 
