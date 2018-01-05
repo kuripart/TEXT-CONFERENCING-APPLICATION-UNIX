@@ -1,7 +1,6 @@
-PROJECT: CLIENT-SERVER TEXT CONFERENCING
-DATE OF SUBMISSION: 30/Nov/2017
-AUTHORS: ###Partha Sarathi Kuri, 1000 260 415 ###
-	 	 ###Nithin Ganesh Prasad, 999 676 426 ###
+PROJECT: CLIENT-SERVER TEXT CONFERENCING<br />
+DATE OF SUBMISSION: 30/Nov/2017<br />
+AUTHORS: Partha Sarathi Kuri, Nithin Ganesh Prasad<br />
 
 PROJECT OBJECTIVES:
 --------------------
